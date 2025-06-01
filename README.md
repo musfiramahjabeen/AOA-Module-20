@@ -6,7 +6,7 @@ You are given a maze in the form of a matrix of size n * n. Each cell is either 
 
 Provide the solution for the above problem(Consider n=4)
 The output (Solution matrix) must be 4*4 matrix with value "1" which indicates the path to destination and "0" for the cell indicating the absence of the path to destination.
-```py
+```py 
 N = 4
 def printSolution(sol):
     for i in sol:
